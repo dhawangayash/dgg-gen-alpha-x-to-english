@@ -20,11 +20,13 @@ class TranslatorServiceTests {
 
     @Test
     fun `should add vibes to assertive sentences`() {
+        // "this is good." -> "this is valid fr fr ✨"
         assertEquals("this is valid fr fr ✨", translatorService.translateToAlphaX("this is good."))
     }
 
     @Test
     fun `should handle multi-word phrases like very good`() {
+        // "this is very good" -> "this is fire fr fr ✨"
         assertEquals("this is fire fr fr ✨", translatorService.translateToAlphaX("this is very good"))
     }
 
