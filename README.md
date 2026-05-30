@@ -2,11 +2,24 @@
 
 A high-vibe Spring Boot application that translates standard English into Gen Z slang (Alpha-x) and back using a rule-based grammar engine. No cap, this is peak engineering.
 
-## 🚀 Quick Start
+## 🎨 Frontend (New!)
 
-### Run the App
+A modern web interface built with **Next.js**, **React**, **TypeScript**, and **Tailwind CSS**.
+
+### Completed Tasks
+- [x] Initialize Next.js frontend project with Tailwind CSS.
+- [x] Implement API proxy routes in Next.js.
+- [x] Develop translator UI components.
+
+### Upcoming Tasks
+- [ ] Integrate UI with API routes and backend.
+
+## 🚀 Quick Start
+...
+### Run the Frontend
 ```bash
-./gradlew bootRun
+cd frontend
+npm run dev
 ```
 
 ### Run Tests
