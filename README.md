@@ -20,9 +20,8 @@ A modern web interface built with **Next.js**, **React**, **TypeScript**, and **
 - [x] Setup **BDD UI testing framework** with Playwright and Cucumber.
 - [x] Write **BDD feature files** for translation and Grammar Lab flows.
 - [x] Implement **Playwright step definitions** for UI automation.
+- [x] Verify BDD tests pass and integrate with `npm test`.
 
-### Upcoming Tasks
-- [ ] Verify BDD tests pass and integrate with `npm test`.
 
 ## 🚀 Quick Start
 ...
