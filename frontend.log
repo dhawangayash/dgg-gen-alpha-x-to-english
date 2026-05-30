@@ -1,0 +1,20 @@
+
+> frontend@0.1.0 dev
+> next dev
+
+▲ Next.js 16.2.6 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://100.115.92.197:3000
+✓ Ready in 359ms
+
+ GET / 200 in 359ms (next.js: 229ms, application-code: 130ms)
+ GET /api/grammar 200 in 94ms (next.js: 78ms, application-code: 16ms)
+ GET / 200 in 79ms (next.js: 6ms, application-code: 73ms)
+ GET /api/grammar 200 in 12ms (next.js: 5ms, application-code: 6ms)
+ POST /api/translate/to-alpha-x 200 in 233ms (next.js: 35ms, application-code: 197ms)
+ GET / 200 in 44ms (next.js: 6ms, application-code: 38ms)
+ GET /api/grammar 200 in 7ms (next.js: 2ms, application-code: 5ms)
+ POST /api/translate/to-english 200 in 57ms (next.js: 41ms, application-code: 16ms)
+ GET / 200 in 37ms (next.js: 4ms, application-code: 33ms)
+ GET /api/grammar 200 in 5ms (next.js: 1713µs, application-code: 4ms)
+ POST /api/translate/to-alpha-x 200 in 14ms (next.js: 2ms, application-code: 11ms)

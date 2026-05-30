@@ -17,9 +17,12 @@ A modern web interface built with **Next.js**, **React**, **TypeScript**, and **
 - [x] Develop categorized UI columns for **Nouns**, **Verbs**, and **Others**.
 - [x] Implement strict **Subject** and **Action** selection slots in the Grammar Lab.
 - [x] Add dynamic **-ing suffix** transformation toggle for Action verbs.
+- [x] Setup **BDD UI testing framework** with Playwright and Cucumber.
+- [x] Write **BDD feature files** for translation and Grammar Lab flows.
+- [x] Implement **Playwright step definitions** for UI automation.
 
 ### Upcoming Tasks
-- [ ] Verify full-stack integration of categorized grammar.
+- [ ] Verify BDD tests pass and integrate with `npm test`.
 
 ## 🚀 Quick Start
 ...
