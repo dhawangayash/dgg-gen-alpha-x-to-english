@@ -12,12 +12,14 @@ A modern web interface built with **Next.js**, **React**, **TypeScript**, and **
 - [x] Develop translator UI components.
 - [x] Integrate UI with API routes and backend.
 - [x] Implement interactive **Grammar Playground** with drag-and-drop-style blocks.
+- [x] Add **Glow Up Blocks** feature to translate assembled playground sentences.
 
 ## 🚀 Quick Start
 ...
 ### Interactive Features
 - **Blue Blocks**: Automatically generated from `grammar.json`. Click to add to the structure.
 - **Visual Builder**: Assemble and clear your own Alpha-x compatible sentences.
+- **Instant Translation**: Use the **Glow Up Blocks** button to see your assembled English phrase in Alpha-x.
 ...
 ### Run the Frontend
 ```bash
