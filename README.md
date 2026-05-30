@@ -13,6 +13,13 @@ A modern web interface built with **Next.js**, **React**, **TypeScript**, and **
 - [x] Integrate UI with API routes and backend.
 - [x] Implement interactive **Grammar Playground** with drag-and-drop-style blocks.
 - [x] Add **Glow Up Blocks** feature to translate assembled playground sentences.
+- [x] Restructure `grammar.json` with dedicated **Noun** and **Verb** categories.
+- [x] Develop categorized UI columns for **Nouns**, **Verbs**, and **Others**.
+- [x] Implement strict **Subject** and **Action** selection slots in the Grammar Lab.
+- [x] Add dynamic **-ing suffix** transformation toggle for Action verbs.
+
+### Upcoming Tasks
+- [ ] Verify full-stack integration of categorized grammar.
 
 ## 🚀 Quick Start
 ...

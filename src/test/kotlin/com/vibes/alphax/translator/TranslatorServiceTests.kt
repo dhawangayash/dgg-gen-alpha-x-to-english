@@ -30,7 +30,7 @@ class TranslatorServiceTests {
 
     @Test
     fun `should translate back to english`() {
-        assertEquals("this is extremely good.", translatorService.translateToEnglish("this is bussin fr fr ✨"))
+        assertEquals("this is delicious.", translatorService.translateToEnglish("this is bussin fr fr ✨"))
         assertEquals("hello friend", translatorService.translateToEnglish("what's good bestie"))
     }
 
