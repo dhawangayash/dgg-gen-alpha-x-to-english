@@ -4,7 +4,8 @@ export async function POST(request: Request) {
   try {
     const body = await request.json();
     
-    const response = await fetch('http://localhost:8080/api/translate/to-english', {
+    const backendUrl = process.env.BACKEND_URL || 'http://localhost:8080';
+    const response = await fetch(`${backendUrl}/api/translate/to-english`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

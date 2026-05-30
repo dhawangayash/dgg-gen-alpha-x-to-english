@@ -65,6 +65,23 @@ The translator is powered by an external grammar configuration located at `src/m
 **Request:** `{"text": "low-key aura farming"}`
 **Response:** `{"original": "low-key aura farming", "translated": "low key showing off"}`
 
+## ☁️ Free Hosting Guide
+
+You can host this full-stack application for free using **Render** (Backend) and **Vercel** (Frontend).
+
+### 1. Backend (Render.com)
+1. Create a new **Web Service** on Render and connect your GitHub repo.
+2. Select **Docker** as the runtime.
+3. Render will automatically use the root `Dockerfile` to build and deploy the Spring Boot app.
+4. **Note:** The free tier spins down after inactivity, so the first request might be slow.
+
+### 2. Frontend (Vercel.com)
+1. Create a new project on Vercel and connect your GitHub repo.
+2. Set the **Root Directory** to `frontend`.
+3. Add an **Environment Variable**:
+   - `BACKEND_URL`: The URL of your Render web service (e.g., `https://your-app.onrender.com`).
+4. Deploy! Vercel will handle the Next.js build and serve your high-vibe UI.
+
 ## 🏗 Architecture
 
 - **Kotlin 1.9.25** & **Spring Boot 3.4.2**
