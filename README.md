@@ -10,9 +10,7 @@ A modern web interface built with **Next.js**, **React**, **TypeScript**, and **
 - [x] Initialize Next.js frontend project with Tailwind CSS.
 - [x] Implement API proxy routes in Next.js.
 - [x] Develop translator UI components.
-
-### Upcoming Tasks
-- [ ] Integrate UI with API routes and backend.
+- [x] Integrate UI with API routes and backend.
 
 ## 🚀 Quick Start
 ...
