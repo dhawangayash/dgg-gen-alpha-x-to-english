@@ -1,4 +1,5 @@
 import TranslationSection from './components/TranslationSection';
+import GrammarPlayground from './components/GrammarPlayground';
 
 export default function Home() {
   return (
@@ -34,6 +35,9 @@ export default function Home() {
             emoji="📚"
           />
         </div>
+
+        {/* New Grammar Playground */}
+        <GrammarPlayground />
 
         <footer className="mt-20 text-center">
           <div className="inline-block bg-black text-white px-6 py-3 rounded-full font-black uppercase tracking-widest text-sm hover:scale-110 transition-transform cursor-default">

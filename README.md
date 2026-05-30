@@ -11,8 +11,13 @@ A modern web interface built with **Next.js**, **React**, **TypeScript**, and **
 - [x] Implement API proxy routes in Next.js.
 - [x] Develop translator UI components.
 - [x] Integrate UI with API routes and backend.
+- [x] Implement interactive **Grammar Playground** with drag-and-drop-style blocks.
 
 ## 🚀 Quick Start
+...
+### Interactive Features
+- **Blue Blocks**: Automatically generated from `grammar.json`. Click to add to the structure.
+- **Visual Builder**: Assemble and clear your own Alpha-x compatible sentences.
 ...
 ### Run the Frontend
 ```bash
